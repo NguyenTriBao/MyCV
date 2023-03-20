@@ -1,0 +1,46 @@
+.row{
+    margin-top: 100px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    text-align:  center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin-top: 50px;
+    margin-bottom: none;
+}
+.col8{
+    border-left: 1px solid black;
+}
+#resume{
+    float: right;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .col4{
+    transform: translateY(700px);
+  }
+  .col8{
+    transform: translateY(-500px);
+    border: none;
+  }
+  img{
+    transform: translateY(-850px);
+    margin-left: 150px;
+  }
+  .footer{
+    transform: translateY(500px);
+  }
+} 
